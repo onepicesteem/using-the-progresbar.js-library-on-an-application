@@ -1,0 +1,13 @@
+#containerLine {
+  margin: 20px;
+  width: 1000px;
+  height: 8px;
+  position: relative;
+}
+
+#containerCircle {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/progressbar.js/dist/progressbar.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Progressbar</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-4">
+                    <p id="pTime">Elapsed Time:</p>
+                    <div id="containerLine"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p>Application Form</p>
+                <form>
+                        
+                        <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" id="inputName">
+                        </div>
+                        <div class="form-group">
+                                <label>Surname</label>
+                                <input type="text" class="form-control" id="inputSurname">
+                        </div>
+                        <div class="form-group">
+                                <label>E-mail</label>
+                                <input type="email" class="form-control" id="inputEmail">
+                        </div>
+                       
+                        <button type="button" class="btn btn-primary" id="btnSubmit">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-4">
+                    <p>Applicants' List</p>
+                    <ul class="list-group" id="ulList">
+
+                    </ul>
+            </div>
+            <div class="col-md-4">
+                <p>Quota</p>
+                <div id="containerCircle"></div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
